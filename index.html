@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio – Grafik DTP</title>
   <style>
     body {
@@ -22,62 +22,18 @@
       letter-spacing: 2px;
       margin-bottom: 10px;
     }
-    header p {
-      font-size: 16px;
-      text-transform: uppercase;
-    }
-    nav {
-      text-align: center;
-      margin-top: 20px;
-    }
-    nav a {
-      margin: 0 10px;
-      font-weight: bold;
-      text-decoration: none;
-      color: #000;
-    }
     section {
       max-width: 1000px;
       margin: 80px auto;
       padding: 0 20px;
     }
     h2 {
-      font-size: 28px;
       border-left: 6px solid #000;
       padding-left: 12px;
-      margin-bottom: 30px;
-    }
-    .services ul {
-      list-style: none;
-      padding: 0;
-    }
-    .services li::before {
-      content: "— ";
-    }
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 30px;
-    }
-    .project {
-      border: 2px solid #000;
-      padding: 20px;
-    }
-    .project img {
-      width: 100%;
-      filter: grayscale(100%);
-      margin-bottom: 15px;
-    }
-    .lang {
-      font-size: 14px;
-      text-transform: uppercase;
-      border-bottom: 1px solid #000;
-      display: inline-block;
-      margin-bottom: 20px;
     }
     footer {
       border-top: 2px solid #000;
-      padding: 30px 20px;
+      padding: 30px;
       text-align: center;
       font-size: 14px;
     }
@@ -88,79 +44,26 @@
 <header>
   <h1>Imię i Nazwisko</h1>
   <p>Grafik DTP · Print Design · Editorial Layout</p>
-  <nav>
-    <a href="#pl">PL</a>
-    <a href="#en">EN</a>
-  </nav>
 </header>
 
-<section id="pl">
-  <span class="lang">Polski</span>
+<section>
   <h2>O mnie</h2>
-  <p>
-    Jestem grafikiem DTP specjalizującym się w składzie publikacji, projektach do druku
-    oraz przygotowaniu plików zgodnie z wymaganiami drukarni.
-    Pracuję z typografią, siatką modułową i detalem.
-  </p>
+  <p>Jestem grafikiem DTP specjalizującym się w projektach do druku i składzie publikacji.</p>
 
   <h2>Zakres usług</h2>
-  <div class="services">
-    <ul>
-      <li>Ulotki, plakaty, broszury</li>
-      <li>Katalogi i magazyny</li>
-      <li>Skład książek i publikacji</li>
-      <li>Przygotowanie do druku (CMYK, spady, PDF/X)</li>
-      <li>Współpraca z drukarniami</li>
-    </ul>
-  </div>
-
-  <h2>Projekty</h2>
-  <div class="projects">
-    <div class="project">
-      <img src="projekt1.jpg" alt="Ulotka reklamowa" />
-      <h3>Ulotka reklamowa</h3>
-      <p>Projekt i przygotowanie do druku.</p>
-    </div>
-    <div class="project">
-      <img src="projekt2.jpg" alt="Katalog produktowy" />
-      <h3>Katalog produktowy</h3>
-      <p>Skład wielostronicowy, typografia.</p>
-    </div>
-    <div class="project">
-      <img src="projekt3.jpg" alt="Plakat" />
-      <h3>Plakat</h3>
-      <p>Format wielkoformatowy, kontrast.</p>
-    </div>
-  </div>
+  <ul>
+    <li>Ulotki, plakaty, broszury</li>
+    <li>Katalogi i magazyny</li>
+    <li>Skład książek</li>
+    <li>Przygotowanie do druku (CMYK, spady, PDF/X)</li>
+  </ul>
 
   <h2>Kontakt</h2>
   <p>Email: twojemail@example.com</p>
-  <p>Behance · Instagram · LinkedIn</p>
-</section>
-
-<section id="en">
-  <span class="lang">English</span>
-  <h2>About me</h2>
-  <p>
-    I am a DTP graphic designer focused on editorial layout, print design
-    and professional print-ready files. I work with typography, grids and detail.
-  </p>
-
-  <h2>Services</h2>
-  <ul>
-    <li>Flyers, posters, brochures</li>
-    <li>Catalogs and magazines</li>
-    <li>Book and editorial layout</li>
-    <li>Print preparation (CMYK, bleed, PDF/X)</li>
-    <li>Print house cooperation</li>
-  </ul>
-
-  <h2>Contact</h2>
-  <p>Email: yourmail@example.com</p>
 </section>
 
 <footer>
-  © 2026 Imię i Nazwisko · Graphic Designer DTP
+  © 2026 Imię i Nazwisko
 </footer>
 
 </body>
